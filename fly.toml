@@ -1,0 +1,4 @@
+# fly.toml file generated for goka-mooncrate-test on 2023-04-04T09:53:41+09:00
+
+app = "goka-mooncrate-test"
+primary_region = "sin"

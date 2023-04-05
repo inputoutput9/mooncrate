@@ -7,39 +7,46 @@ export type Question = {
 
 const quizQuestions: Question[] = [
   {
-    questionText: "What do the initials DB in Aston Martin DB11 stand for?",
-    image:
-      "https://images.unsplash.com/photo-1642201855395-1c8b44e6e42b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    questionText: "What is the Zima App used for?",
+    image: "https://s3cdn.yourator.co/banners/banners/000/001/522/home/8a8ca7e2fd2aab8efb737d9d16ef0f8782d1c47f.png",
     answers: [
-      "Trick question: nothing!",
-      "David Brown",
-      "Drive Better",
-      "Diane Blue",
+      "Meet new people",
+      "Book flights",
+      "Buy cryptocurrency",
+      "Get coupons",
     ],
-    correctAnswerIndex: 1,
-  },
-  {
-    questionText: "Which car brand is this logo for?",
-    image: "https://www.carlogos.org/logo/Lexus-symbol-640x480.jpg",
-    answers: ["Lamborghini", "Lada", "Lotus", "Lexus"],
-    correctAnswerIndex: 3,
-  },
-  {
-    questionText: "Where in the UK is the MINI plant?",
-    image:
-      "https://images.unsplash.com/photo-1591439346018-9d5df732ab7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-    answers: ["Oxford", "Cambridge", "London", "Edinburgh"],
     correctAnswerIndex: 0,
   },
   {
-    questionText:
-      "Which was the first James Bond film to include an Aston Martin?",
-    answers: ["Dr No", "From Russia with Love", "Goldfinger", "Thunderball"],
+    questionText: "What industry is Goka in?",
+    image: "https://i.imgur.com/3rrLPZt.png",
+    answers: [
+      "Manufacturing",
+      "Construction",
+      "Entertainment",
+      "Web3",
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    questionText: "What can I win in Goka Mooncrates?",
+    image: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQ3NjFhYmFkZDI2YmJmM2QzNjA5YjliZTc1NTY2MjE0NmViNjMzNSZjdD1n/ZuhjSK9ihdspZzni2l/giphy.gif",
+    answers: [
+      "Concert Tickets",
+      "Bitcoin",
+      "Starbucks Gift Cards",
+      "All of the above",
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    questionText: "Who wrote the Bitcoin Whitepaper?",
+    answers: ["Luke Skywalker", "Vitalik Buterin", "Satoshi Nakamoto", "Donald Trump"],
     correctAnswerIndex: 2,
   },
   {
-    questionText: "What color were all Ferraris originally?",
-    answers: ["Yellow", "White", "Blue", "Red"],
+    questionText: "If you want a Goka Mooncrate, select Goka as the answer",
+    answers: ["Goku", "Goko", "Goki", "Goka"],
     correctAnswerIndex: 3,
   },
 ];

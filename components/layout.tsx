@@ -1,3 +1,4 @@
+import usePackEvents from "../hooks/usePackEvents";
 import React from "react";
 import Footer from "./footer";
 import Navbar from "./navbar";
@@ -10,6 +11,8 @@ export default function Layout({
   children,
   title,
 }: React.PropsWithChildren<Props>) {
+  usePackEvents();
+
   return (
     <>
       <Navbar />
